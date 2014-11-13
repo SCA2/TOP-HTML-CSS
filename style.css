@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.825em;
+  color: #404040;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  overflow: hidden;
+}
+
+ul#nav {
+  float: right;
+  position: relative;
+  display: inline;
+  list-style: none;
+}
+
+ul#nav li {
+  position: relative;
+  /*border: 1px solid gray;*/
+  display: inline-block;
+  width: 52px;
+}
+
+img.icon {
+  position: absolute;
+  display: block;
+}
+
+img#icon-1 {
+  top: -75px;
+  left: -85px;
+  clip: rect(50px,130px,90px,100px);
+}
+
+img#icon-2 {
+  top: -75px;
+  left: -120px;
+  clip: rect(50px,160px,80px,130px);
+}
+
+img#icon-3 {
+  top: -35px;
+  left: -315px;
+  clip: rect(10px,356px,50px,326px);
+}
+
+img#doodle {
+  display: block;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#search {
+  display: table;
+  /*position: relative;*/
+  width: 572px;
+  height: 30px;
+  border: 1px solid #E4E4E4;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#search > div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  /*width: 80%;*/
+}
+
+div#search img {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  height: 20px;
+  margin: 0;
+  padding: 1px;
+  clip: rect(0px,32px,32px,0px);
+}
+
+input {
+  width: 100%;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  background-color: #F2F2F2;
+  border-top: 1px solid #E4E4E4;
+  width: 100%;
+  overflow: hidden;
+}
+
+footer > ul {
+  display: inline;
+  list-style: none;    
+  padding: 0;
+  margin: 0;
+}
+
+footer > ul > li {
+  display: inline-block;
+  margin: 0.75em;  
+}
+
+ul#ads {
+  float: left;
+}
+
+ul#privacy {
+  float: right;
+}
+
+div#buttons {
+  display: table;
+  /*margin-top: 14px;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 11px;
+  vertical-align: top;
+  height: 29px;
+  line-height: 29px;
+  min-width: 54px;
+  padding: 0 8px;
+  margin: 14px 10px;
+  text-align: center;
+  text-decoration: none!important;
+  border-radius: 2px;
+  border: 1px solid #dcdcdc;
+  border-color: rgba(0,0,0,0.1);
+  color: #444!important;
+  background: #f5f5f5;
+  background: linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+button:hover {
+  border-color: #c6c6c6;
+  color: #222!important;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
+  background: #f8f8f8;
+  background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+}
