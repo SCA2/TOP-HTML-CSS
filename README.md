@@ -1,4 +1,4 @@
-TOP-HTML-CSS
+top-html-css
 ============
 
 HTML/CSS Exercise from The Odin Project
